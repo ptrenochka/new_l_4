@@ -1,0 +1,84 @@
+
+.post:nth-of-type(1) p {
+    background-color: orange; 
+}
+
+.post:nth-of-type(2) p {
+    background-color: purple; 
+    color: aliceblue; 
+}
+
+
+.post:nth-of-type(1) h2 {
+    background-color: orange; 
+}
+
+.post:nth-of-type(2) h2 {
+    background-color: purple;
+    color: aliceblue; 
+}
+
+.main-title {
+    color: red; 
+}
+
+.nav-list li:nth-child(1) a {
+    color: green; 
+}
+
+.nav-list li:nth-child(2) a {
+    color: blue; 
+}
+
+.nav-list li:nth-child(3) a {
+    color: yellow; 
+}
+
+.submit-btn{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+    color: red;
+}
+
+.widget{
+    color: black;
+}
+
+.highlighted {
+    color: brown; 
+}
+
+.widget h3 {
+    color: pink; /* Розовый цвет для заголовка */
+}
+
+.widget .color-list {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+.widget .color-list li:nth-child(1) {
+    color: gray; /* Серый цвет для первого элемента списка */
+}
+
+.widget .color-list li:nth-child(2) {
+    color: brown; /* Коричневый цвет для второго элемента списка */
+}
+
+.widget .color-list li.highlighted {
+    color: black; /* Черный цвет для выделенного элемента */
+}
+
+.important-widget h3 {
+    color: darkred; /* Бордовый цвет для заголовка */
+}
+
+.important-widget .note {
+    color: maroon; /* Темно-бордовый цвет для текста заметки */
+    font-weight: bold; /* Жирный шрифт для заметки */
+    font-size: 1.1em; /* Увеличенный размер шрифта для заметки */
+}
+
